@@ -131,3 +131,48 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+
+.news {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+.news_block3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  gap: 30px;
+}
+.news_block {
+  margin: 1%;
+}
+
+
+.text_mini {
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text4_bold {
+  color: #000; 
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.dostij {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+
