@@ -11,8 +11,8 @@ function Menu() {
                     <Link className="menu" to="/product">ПРОДУКЦИЯ</Link>
                     <Link className="menu" to="/about">О НАС</Link>
                     <img src={logo} alt="logo"/>
-                    <Link className="menu" to="">НОВОСТИ</Link>
-                    <Link className="menu" to=""> ДОСТИЖЕНИЯ</Link>
+                    <Link className="menu" to="/news">НОВОСТИ</Link>
+                    <Link className="menu" to="/dostij"> ДОСТИЖЕНИЯ</Link>
                     <Link className="menu" to="">КОНТАКТЫ</Link>
                 </nav>
             </header>
