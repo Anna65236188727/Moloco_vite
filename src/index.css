@@ -5,7 +5,8 @@
 
 header {
   background-image: url(assets/header.png);
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
 }
 
 body {
@@ -113,6 +114,7 @@ line-height: normal;
 .blo{
   display: flex;
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 .block{
   display: flex;
@@ -173,6 +175,89 @@ line-height: normal;
   width: 80%;
   margin: 0 auto;
   margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  margin-bottom: 2%;
+}
+.diploms{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.dos{
+  margin: 0.2% 0;
+}
+.about{
+  width: 80%;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
+.text_about{
+  display: flex;
+  align-items: center;
+  margin: 2%;
+}
 
+.about_img{
+  width: 45%;
+}
+.about_img1{
+  width: 100%;
+}
+.about_text{
+  width: 55%;
+}
+.img{
+  width: 100px;
+  height: 100px;
+  margin-right: 3%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #E0F6FF;
+  height: 370px;
+  padding: 3%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  margin: 3%;
+  height: 300px;
+  width: 350px;
+}
+
+.title_footer {
+  color: #2E3191;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer_text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.icon2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
